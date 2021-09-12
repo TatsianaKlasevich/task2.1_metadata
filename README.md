@@ -3,7 +3,7 @@
 Написать программу которая при запуске вызывает OutOfMemoryError: Metaspace. В Readme описать условия запуска. (если такие будут, например jvm options)
 
 ###### jvm options:
-*-XX:MaxMetaspaceSize=10m
+* -XX:MaxMetaspaceSize=10m
 *-XX:MetaspaceSize=2M
 *-XX:MaxMetaspaceFreeRatio=1
 *-XX:MaxMetaspaceExpansion=1K
