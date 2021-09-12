@@ -1,6 +1,6 @@
 # task2.1_metadata
 
-Написать программу которая при запуске вызывает OutOfMemoryError: Metaspace. В Readme описать условия запуска. (если такие будут, например jvm options)
+Написать программу которая при запуске вызывает OutOfMemoryError: Metaspace. В Readme описать условия запуска. 
 
 ###### jvm options:
 * -XX:MaxMetaspaceSize=10m
