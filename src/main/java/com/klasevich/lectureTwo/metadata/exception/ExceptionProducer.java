@@ -13,7 +13,6 @@ public class ExceptionProducer {
         for (int i = 0; ; i++) {
             try {
                 Class newClass = classPool.makeClass("OutOfMemoryErrorNewClass" + i).toClass();
-                System.out.println(newClass.getName());
             } catch (CannotCompileException e) {
                 logger.error(e);
             }
